@@ -1,0 +1,13 @@
+.container {
+  display: block;
+}
+
+.label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.labelText {
+  display: block;
+  margin-bottom: .25em;
+}

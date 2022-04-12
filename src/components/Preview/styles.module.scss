@@ -1,0 +1,174 @@
+.container {
+  border-radius: 4px;
+  max-width: 768px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 4px 4px 0 0;
+}
+
+.icon {
+  margin: 0 16px 0 0;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.message {
+  margin: 0;
+  padding: 8px 16px;
+  white-space: pre-line;
+  line-height: 1.25em;
+}
+
+.blue {
+  background-color: #1565c0ff;
+
+  .header {
+    color: #ffffffff;
+    background-color: #1e88e5ff;
+  }
+
+  .name {
+    color: #ffffffb3;
+  }
+
+  .message {
+    color: #ffffffff;
+  }
+}
+
+.skyblue {
+  background-color: #00e5ffff;
+
+  .header {
+    color: #000000ff;
+    background-color: #00b8d4ff;
+  }
+
+  .name {
+    color: #000000b3;
+  }
+
+  .message {
+    color: #000000ff;
+  }
+}
+
+.lime {
+  background-color: #1de9b6ff;
+
+  .header {
+    color: #000000ff;
+    background-color: #00bfa5ff;
+  }
+
+  .name {
+    color: #0000008a;
+  }
+
+  .message {
+    color: #000000ff;
+  }
+}
+
+.yellow {
+  background-color: #ffca28ff;
+
+  .header {
+    color: #000000df;
+    background-color: #ffb300ff;
+  }
+
+  .name {
+    color: #0000008a;
+  }
+
+  .message {
+    color: #000000df;
+  }
+}
+
+.orange {
+  background-color: #f57c00ff;
+
+  .header {
+    color: #ffffffdf;
+    background-color: #e65100ff;
+  }
+
+  .name {
+    color: #ffffffb3;
+  }
+
+  .message {
+    color: #ffffffdf;
+  }
+}
+
+.magenta {
+  background-color: #e91e63ff;
+
+  .header {
+    color: #ffffffff;
+    background-color: #c2185bff;
+  }
+
+  .name {
+    color: #ffffffb3;
+  }
+
+  .message {
+    color: #ffffffff;
+  }
+}
+
+.red {
+  background-color: #e62117ff;
+
+  .header {
+    color: #ffffffff;
+    background-color: #d00000ff;
+  }
+
+  .name {
+    color: #ffffffb3;
+  }
+
+  .message {
+    color: #ffffffff;
+  }
+}
