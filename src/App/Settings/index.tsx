@@ -1,6 +1,9 @@
-import { SuperChat } from "components/App";
+import { SuperChat } from "App";
+import FileInput from "components/FileInput";
+import { Option } from "components/Select";
 import TextArea from "components/TextArea";
 import TextInput from "components/TextInput";
+import { useState } from "react";
 import styles from "./styles.module.css";
 
 interface P {
@@ -9,6 +12,14 @@ interface P {
 }
 
 const Settings: React.FC<P> = ({ superChat, onChange }) => {
+  const handleChangeFile = (file: File) => {
+    const reader = new FileReader();
+    reader.addEventListener("load", (e) => {
+      onChange("icon", reader.result as string);
+    });
+    reader.readAsDataURL(file);
+  };
+
   return (
     <section className={styles.container}>
       <label className={styles.label}>
@@ -30,14 +41,10 @@ const Settings: React.FC<P> = ({ superChat, onChange }) => {
           placeholder="Enter price."
         />
       </label>
-      <label className={styles.label}>
-        <span className={styles.labelText}>Icon URL</span>
-        <TextInput
-          value={superChat.icon}
-          onChange={(value) => onChange("icon", value)}
-          placeholder="Enter icon URL. ex: Youtube channel icon"
-        />
-      </label>
+      <div className={styles.iconSection}>
+        <span className={styles.labelText}>Icon</span>
+        <FileInput onChange={handleChangeFile} />
+      </div>
       <label className={styles.label}>
         <span className={styles.labelText}>Message</span>
         <TextArea
