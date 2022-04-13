@@ -1,6 +1,6 @@
 import Button from "components/Button";
-import Preview from "components/Preview";
-import Settings from "components/Settings";
+import Preview from "App/Preview";
+import Settings from "App/Settings";
 import { useRef, useState } from "react";
 import styles from "./styles.module.css";
 import { useDownload } from "hooks/useDownload";

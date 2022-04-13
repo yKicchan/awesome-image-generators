@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from "react-dom/client";
 import "assets/styles/variables.css";
 import "assets/styles/global.css";
-import App from "./components/App";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 const container = document.getElementById("root");

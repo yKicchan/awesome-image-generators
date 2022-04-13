@@ -1,5 +1,5 @@
 import React from 'react';
-import { SuperChat } from 'components/App';
+import { SuperChat } from 'App';
 import styles from './styles.module.scss';
 
 interface P extends SuperChat {
