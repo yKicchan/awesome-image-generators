@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/super-chat-image-generator/static/css/main.b466f6ff.css",
-    "main.js": "/super-chat-image-generator/static/js/main.8861729f.js",
-    "static/js/787.f9531b34.chunk.js": "/super-chat-image-generator/static/js/787.f9531b34.chunk.js",
-    "index.html": "/super-chat-image-generator/index.html",
-    "main.b466f6ff.css.map": "/super-chat-image-generator/static/css/main.b466f6ff.css.map",
-    "main.8861729f.js.map": "/super-chat-image-generator/static/js/main.8861729f.js.map",
-    "787.f9531b34.chunk.js.map": "/super-chat-image-generator/static/js/787.f9531b34.chunk.js.map"
+    "main.css": "/awesome-image-generators/static/css/main.571654e4.css",
+    "main.js": "/awesome-image-generators/static/js/main.4eeed8fc.js",
+    "static/js/787.372ac8b7.chunk.js": "/awesome-image-generators/static/js/787.372ac8b7.chunk.js",
+    "index.html": "/awesome-image-generators/index.html",
+    "main.571654e4.css.map": "/awesome-image-generators/static/css/main.571654e4.css.map",
+    "main.4eeed8fc.js.map": "/awesome-image-generators/static/js/main.4eeed8fc.js.map",
+    "787.372ac8b7.chunk.js.map": "/awesome-image-generators/static/js/787.372ac8b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b466f6ff.css",
-    "static/js/main.8861729f.js"
+    "static/css/main.571654e4.css",
+    "static/js/main.4eeed8fc.js"
   ]
 }
