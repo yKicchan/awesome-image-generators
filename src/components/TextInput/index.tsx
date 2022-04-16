@@ -8,6 +8,7 @@ interface P {
   type?: "text" | "number";
   max?: number;
   min?: number;
+  maxLength?: number;
 }
 
 const TextInput: React.FC<P> = ({
@@ -17,6 +18,7 @@ const TextInput: React.FC<P> = ({
   max,
   min,
   placeholder,
+  maxLength
 }) => {
   return (
     <input
@@ -27,6 +29,7 @@ const TextInput: React.FC<P> = ({
       max={max}
       min={min}
       placeholder={placeholder}
+      maxLength={maxLength}
     />
   );
 };
