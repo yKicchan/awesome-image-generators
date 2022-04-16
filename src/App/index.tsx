@@ -12,7 +12,17 @@ function App() {
         <Route path="/super-chat" element={<SuperChat />} />
         <Route path="/discord-rank-card" element={<DiscordRankCard />} />
       </Routes>
-      <footer className={styles.footer}>©︎ 2022 yKicchan</footer>
+      <footer className={styles.footer}>
+        ©︎ 2022 yKicchan・
+        <a
+          href="https://github.com/yKicchan/awesome-image-generators"
+          rel="noreferrer"
+          target="_blank"
+          className={styles.link}
+        >
+          Repository
+        </a>
+      </footer>
     </main>
   );
 }

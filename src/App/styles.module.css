@@ -14,3 +14,7 @@
   font-size: .75rem;
   color: var(--gray);
 }
+
+.link {
+  color: var(--gray);
+}
