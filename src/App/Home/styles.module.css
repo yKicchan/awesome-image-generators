@@ -1,0 +1,19 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  padding: 1rem 2rem;
+  border: 1px solid var(--box-border-color);
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+
+  color: var(--color);
+  text-decoration: none;
+}
+
+.link:active {
+  box-shadow: var(--shadow-inset);
+}

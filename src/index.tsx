@@ -4,13 +4,16 @@ import "assets/styles/variables.css";
 import "assets/styles/global.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from 'react-router-dom';
 
 const container = document.getElementById("root");
 if (container) {
   const root = createRoot(container);
   root.render(
     <React.StrictMode>
-      <App />
+      <BrowserRouter basename='/awesome-image-generators'>
+        <App />
+      </BrowserRouter>
     </React.StrictMode>
   );
 }

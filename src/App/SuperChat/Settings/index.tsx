@@ -1,4 +1,3 @@
-import { SuperChat } from "App";
 import FileInput from "components/FileInput";
 import TextArea from "components/TextArea";
 import TextInput from "components/TextInput";
