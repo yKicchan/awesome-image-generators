@@ -24,7 +24,7 @@ const DiscordRankCard = () => {
     });
   };
   const ref = useRef(null);
-  const download = useDownload(ref, "");
+  const download = useDownload(ref, `${discordRank.name}#${discordRank.tag}_card`);
   return (
     <>
       <h1>Discord Rank Card Generator</h1>
