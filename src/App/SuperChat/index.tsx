@@ -26,9 +26,9 @@ const SuperChat = () => {
 
   return (
     <>
-      <h1 className={styles.h1}>Super Chat Image Generator</h1>
+      <h1>Super Chat Image Generator</h1>
       <Settings superChat={superChat} onChange={handleChange} />
-      <h2 className={styles.h2}>Preview</h2>
+      <h2>Preview</h2>
       <Preview ref={ref} {...superChat} />
       <Button className={styles.download} onClick={download}>
         Download

@@ -9,6 +9,9 @@ const Home = () => {
         <Link to="/super-chat" className={styles.link}>
           Super Chat
         </Link>
+        <Link to="/discord-rank-card" className={styles.link}>
+          Discord Rank Card
+        </Link>
       </section>
     </>
   );

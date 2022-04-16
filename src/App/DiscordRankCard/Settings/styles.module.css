@@ -1,0 +1,24 @@
+.container {
+  display: block;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.labelText {
+  display: block;
+  margin-bottom: .25em;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.iconSection {
+  margin-bottom: 1em;;
+}
