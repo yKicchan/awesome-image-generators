@@ -4,5 +4,3 @@ export const DiscordStatus = {
   DoNotDisturb: 'do-not-disturb',
   Offline: 'offline'
 } as const;
-
-export type DiscordStatus = typeof DiscordStatus[keyof typeof DiscordStatus];
