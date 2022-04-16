@@ -10,7 +10,7 @@
 
 金額に応じた色は [YouTube Live スーパーチャットのカラーコードまとめ](https://zenn.dev/yutanakamizo/articles/7b62868facca4c) を参考にさせていただきました。
 
-## [Discord Rank Card Generator](https://ykicchan.github.io/awesome-image-generators/super-chat)
+## [Discord Rank Card Generator](https://ykicchan.github.io/awesome-image-generators/discord-rank-card)
 
 Discord([MEE6](https://mee6.xyz/)) のランクカードジェネレーター
 
