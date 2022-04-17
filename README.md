@@ -17,6 +17,11 @@ Discord([MEE6](https://mee6.xyz/)) のランクカードジェネレーター
 ![sample](https://user-images.githubusercontent.com/27273218/163682002-e295bf26-4627-439c-ae70-991bbbf2714b.png)
 
 経験値・レベルの計算は [Mee6-documentation](https://github.com/Mee6/Mee6-documentation/blob/master/docs/levels_xp.md) を参照した。
+
+## [警告されました](https://ykicchan.github.io/awesome-image-generators/was-warned)
+
+![sample](https://user-images.githubusercontent.com/27273218/163722875-fce80fd8-20a3-4a61-ba03-89c68491ace1.png)
+
 ## Maintenance
 
 ### Installation
