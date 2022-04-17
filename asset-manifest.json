@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/awesome-image-generators/static/css/main.50c28568.css",
-    "main.js": "/awesome-image-generators/static/js/main.616fd28f.js",
+    "main.css": "/awesome-image-generators/static/css/main.c1454f90.css",
+    "main.js": "/awesome-image-generators/static/js/main.24f2244c.js",
     "static/js/787.372ac8b7.chunk.js": "/awesome-image-generators/static/js/787.372ac8b7.chunk.js",
     "index.html": "/awesome-image-generators/index.html",
-    "main.50c28568.css.map": "/awesome-image-generators/static/css/main.50c28568.css.map",
-    "main.616fd28f.js.map": "/awesome-image-generators/static/js/main.616fd28f.js.map",
+    "main.c1454f90.css.map": "/awesome-image-generators/static/css/main.c1454f90.css.map",
+    "main.24f2244c.js.map": "/awesome-image-generators/static/js/main.24f2244c.js.map",
     "787.372ac8b7.chunk.js.map": "/awesome-image-generators/static/js/787.372ac8b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c28568.css",
-    "static/js/main.616fd28f.js"
+    "static/css/main.c1454f90.css",
+    "static/js/main.24f2244c.js"
   ]
 }
