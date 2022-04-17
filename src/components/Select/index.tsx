@@ -11,7 +11,7 @@ const Select: React.FC<P> = ({ options, value, onChange }) => {
     <div className={styles.container}>
     <select className={styles.component} value={value} onChange={e => onChange(e.target.value)} >
       {options.map((o) => (
-        <option value={o.value}>{o.label}</option>
+        <option key={JSON.stringify(o.value)} value={o.value}>{o.label}</option>
       ))}
     </select>
     </div>
