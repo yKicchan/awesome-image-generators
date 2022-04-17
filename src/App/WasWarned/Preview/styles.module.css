@@ -1,0 +1,36 @@
+.container {
+  padding: 8px 16px 16px 12px;
+  border-left: 4px solid #202225;
+  border-radius: 4px;
+  width: max-content;
+  max-width: 520px;
+  background: #2f3136;
+  font-size: 14px;
+}
+
+.userInfo,
+.reason {
+  margin-top: 8px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.reason {
+  color: #DCDDDE;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}

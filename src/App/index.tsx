@@ -3,6 +3,7 @@ import DiscordRankCard from "./DiscordRankCard";
 import Home from "./Home";
 import styles from "./styles.module.css";
 import SuperChat from "./SuperChat";
+import WasWarned from "./WasWarned";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/super-chat" element={<SuperChat />} />
         <Route path="/discord-rank-card" element={<DiscordRankCard />} />
+        <Route path="/was-warned" element={<WasWarned />} />
       </Routes>
       <footer className={styles.footer}>
         ©︎ 2022 yKicchan・

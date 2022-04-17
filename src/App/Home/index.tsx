@@ -12,6 +12,9 @@ const Home = () => {
         <Link to="/discord-rank-card" className={styles.link}>
           Discord Rank Card
         </Link>
+        <Link to="/was-warned" className={styles.link}>
+          Was Warned
+        </Link>
       </section>
     </>
   );
