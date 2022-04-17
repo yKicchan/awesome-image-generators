@@ -26,7 +26,7 @@ const WasWarned = () => {
 
   return (
     <>
-      <h1>警告されました</h1>
+      <h1>警告されましたジェネレーター</h1>
       <Settings warn={warn} onChange={handleChange} />
       <h2>Preview</h2>
       <Preview ref={ref} {...warn} />

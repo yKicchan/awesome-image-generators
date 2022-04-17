@@ -13,7 +13,7 @@ const Home = () => {
           Discord Rank Card
         </Link>
         <Link to="/was-warned" className={styles.link}>
-          Was Warned
+          警告されました
         </Link>
       </section>
     </>
